@@ -14,7 +14,7 @@ const OfferList = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    navigate('/');
+    navigate('/application-provider-example');
   };
 
   useEffect(() => {
@@ -49,7 +49,7 @@ const OfferList = () => {
     return <div>
     <HeaderContainer>
       <HeaderContent>
-        <Logo src="../assets/vidis_logo.png" alt="Logo" />
+        <Logo src="../../assets/vidis_logo.png" alt="Logo" />
         <MainContent>
           <Title>Schulportal</Title>
         </MainContent>
@@ -72,7 +72,7 @@ const OfferList = () => {
     return <div>
     <HeaderContainer>
       <HeaderContent>
-        <Logo src="../assets/vidis_logo.png" alt="Logo" />
+        <Logo src="../../assets/vidis_logo.png" alt="Logo" />
         <MainContent>
           <Title>Schulportal</Title>
         </MainContent>
@@ -95,7 +95,7 @@ const OfferList = () => {
     <div>
     <HeaderContainer>
       <HeaderContent>
-        <Logo src="../assets/vidis_logo.png" alt="Logo" />
+        <Logo src="../../assets/vidis_logo.png" alt="Logo" />
         <MainContent>
           <Title>Schulportal</Title>
         </MainContent>
