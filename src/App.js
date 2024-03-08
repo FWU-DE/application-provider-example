@@ -9,7 +9,7 @@ function App() {
     <AuthProvider>
       <Router>
         <Routes>
-          <Route path="/" Component={Login} />
+          <Route path="/application-provider-example" Component={Login} />
           <Route path="/offer-list" Component={OfferList} />
         </Routes>
       </Router>
