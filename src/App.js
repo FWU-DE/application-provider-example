@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/application-provider-example" Component={Login} />
-          <Route path="/offer-list" Component={OfferList} />
+          <Route path="/application-provider-example/offer-list" Component={OfferList} />
         </Routes>
       </Router>
     </AuthProvider>
