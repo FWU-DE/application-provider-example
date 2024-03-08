@@ -13,7 +13,7 @@ const Login = () => {
     login(email, password);
     const isAuthenticated = true;
     if (isAuthenticated) {
-      navigate('/offer-list');
+      navigate('/application-provider-example/offer-list');
     }
   };
 
