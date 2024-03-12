@@ -21,7 +21,7 @@ const OfferList = () => {
     const fetchData = async () => {
       //const apiUrl = '/o/vidis-rest/v1.0/offers/all';
       //const apiUrl = '/o/vidis-rest/v1.0/offers/activated/by-region/test-region';
-      const apiUrl = '/o/vidis-rest/v1.0/offers/activated/by-school/DE-VIDIS-vidis_test_101010';
+      const apiUrl = 'https://service-stage.vidis.schule/o/vidis-rest/v1.0/offers/activated/by-school/DE-VIDIS-vidis_test_101010';
       try {
         // API-Aufruf
         const apiResponse = await axios.get(apiUrl, {
