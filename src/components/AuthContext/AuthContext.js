@@ -8,8 +8,6 @@ export const AuthProvider = ({ children }) => {
   const login = (email, password) => {
     // Wenn erfolgreich, setze die Authentifizierungsdaten
     setAuthData({ email, password });
-
-    console.log(authData);
   };
 
   const logout = () => {
